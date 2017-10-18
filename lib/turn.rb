@@ -31,7 +31,7 @@ def turn(board)
     move(board, index)
     display_board(board)
   else
-    puts "Invalid move"
+    puts "invalid move"
     turn(board)
   end
 end
